@@ -17,9 +17,11 @@ $ sh server-run.sh
 
 ## Testing
 - Access http://127.0.0.1:8080 or http://localhost:8080 using your favourite browser
+
 ![index](https://i.ibb.co/FH9pyR0/Screenshot-from-2019-11-22-01-38-20.png)
 
 - Access http://127.0.0.1:8080/lunch or http://localhost:8080/lunch using POSTMAN (with GET method) or you can using your favourite browser also
+
 ![lunch](https://i.ibb.co/VQX3dqb/Screenshot-from-2019-11-22-01-41-56.png)
 
 
