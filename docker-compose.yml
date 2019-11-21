@@ -1,0 +1,19 @@
+version: '3'
+services:
+  php:
+    build: docker/build/php
+    expose:
+      - '9000'
+    volumes:
+      - ./:/var/www/html/symfony:cached
+      - ./logs:/var/log
+  web:
+    build: docker/build/nginx
+    restart: always
+    ports:
+        - '8080:80'
+    depends_on:
+        - php
+    volumes:
+        - ./:/var/www/html/symfony:cached
+        - ./logs:/var/log/nginx
