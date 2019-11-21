@@ -18,10 +18,10 @@ $ sh server-run.sh
 ## Testing
 - Access http://127.0.0.1:8080 using your favourite browser
 
-- Access http://127.0.0.1:8080/lunch using POSTMAN with GET methode or you can using your favourite browser also
+- Access http://127.0.0.1:8080/lunch using POSTMAN (with GET method) or you can using your favourite browser also
 
 ## Stopping
-- Since the service running in daemon-mode, you can stopping the service using this command:
+- Since the service running in daemon-mode, you can stopping the service using this command
 ```
 $ sh server-stop.sh
 ```
