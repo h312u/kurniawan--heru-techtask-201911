@@ -8,7 +8,6 @@ RUN php composer-setup.php
 RUN php -r "unlink('composer-setup.php');"
 RUN mv composer.phar /usr/local/bin/composer
 RUN chmod +x /usr/local/bin/composer
-RUN ln -snf /usr/share/zoneinfo/Europe/Lisbon /etc/localtime
 WORKDIR /var/www/html/symfony
 EXPOSE 9000
 CMD ["php-fpm"]
